@@ -34,7 +34,7 @@ $data = array(['id', 'id_data']);
 
         $keys = array_keys($row);
         $arr = array(
-            $row[0],
+            $row[$keys[0]],
             $row[$keys[1]]
         );
 
